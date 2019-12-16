@@ -1,0 +1,86 @@
+req coll
+req analys
+design low level
+deisgn high level
+dev - waterfall - agile
+unit testing
+
+
+testing - type testing
+deployment
+production
+
+design (confluence) sharepoint
+jira - story
+dev - maven-jar
+git -upload jar
+jenkins - deployment
+products - live
+
+
+local -> hdfs -> hive -> ES
+db -> sqoop -> hdfs -> hive -> spark -> storage
+db -> sqoop -> hdfs -> hive -> Storage Handler ES -> ES -> Kibana
+
+ooziee - orchestration tool for managing hadoop job and also other jobs. mostly with hadoop job
+reliable, continous, scalable & data aware service can manage job workflow, dependencies and coordination based on time & data availability.
+
+.xml and.prop [oozie server]
+
+sync  -> server he allow can handle
+async -> server depends on hadoop component
+
+layers:
+bundle - grouped
+coordinator - when 
+workflow - how - in what order
+action- xml - what - has to be called .. hive..sqoop..MR..java
+
+Oozie - job sheduler or shell scripting
+suspend - dnt run anything futher
+
+storage = S3
+AWS - everything provided in web - web service
+EMR(elastic mapreduce) = Hdfs / S3 - simple storage service
+Athena = Hive
+
+bucket - unique uri to locate data / service
+folder - 
+object - files which is stored as objects like blocks
+
+db -> spark -> AWS/S3 -> client
+AWS/S3 -> 
+
+
+db -> spark -> hdfs -> hive -> sql
+db -> spark -> S3  -> Anthena -> sql
+
+s3a -5tb data in 1 shot
+s3 - 5gb data
+
+oracle     ->  
+hive       ->    join (spark)  -> S3a -> client
+postgresql ->
+
+hive -> s3a
+
+s3(already stored in folder) -> anthena table(no manage table used)
+
+db -> S3 -> spark -> db  
+
+Platform as service (only storage):
+s3 -> load/read, anetha(qry bulider) - analyze  -> spark
+
+infrastr(H/W) as service - cluster itself in cloud (EC2):
+EC2(elasticcomputing)computer in cloud -> 10 nodes(HDF,cloudera, databricks)
+
+s/w as service: already s/w are installed
+EMR(elasticmapreduce-hadoop/spark..etc) -> 3 Nodes ->
+
+using hadoop as S3 , filestreaming (API)
+
+S3 - storge as service
+
+we are working emr cluster, compontents hadoop..hive..spark
+
+
