@@ -1,4 +1,4 @@
-req coll
+req collection
 req analys
 design low level
 deisgn high level
